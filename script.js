@@ -203,20 +203,6 @@ function btn3() {
   }
 }
 
-// function wallpaper1() {
-//   let background = document.getElementById('background')
-//   let background2 = document.getElementById('background-eva')
-//   background.style.display = 'none'
-//   background2.style.display = 'block'
-// }
-
-// function wallpaper2() {
-//   let background = document.getElementById('background')
-//   let background2 = document.getElementById('background-subaru')
-//   background.style.display = 'none'
-//   background2.style.display = 'block'
-// }
-
 const date = new Date().toLocaleTimeString();
 document.getElementById('time').innerText = date
 
