@@ -10,21 +10,21 @@ const op6 = document.getElementById('radio09')
 function verify() {
     let text = document.getElementById('text').value
     if (text === '') {
-        document.getElementById('result').innerText = 'Coloque um valor <--'
+        document.getElementById('result').innerText = 'put a value <--'
     }
 }
 
 function verify2() {
   let text = document.getElementById('text2').value
     if (text === '') {
-        document.getElementById('result2').innerText = 'Coloque um valor <--'
+        document.getElementById('result2').innerText = 'put a value <--'
     }
 }
 
 function verify3() {
   let text = document.getElementById('text3').value
   if (text === '') {
-    document.getElementById('result3').innerText = 'Coloque um valor <--'
+    document.getElementById('result3').innerText = 'put a value <--'
   }
 }
 
