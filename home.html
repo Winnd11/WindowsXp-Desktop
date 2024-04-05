@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/xp.css">
+</head>
+<body>
+    <img src="C:\Users\William\Downloads\background.jpg" alt="background" name="background" id="background">
+    <ul class="programs">
+      <li><img src="src/img/274.ico" alt="trashbin" id="trashbin"></li> <span>Recycle Bin</span>
+      <li><img style="cursor: pointer;" src="src/img/1488.ico" alt="edge" id="edge" onclick="btnerro()"></li> <span>Internet Explorer</span>
+      <li><img src="src/img/24.ico" alt="folder" id="folder" onclick="mydocument()"></li> <span>My Documents</span>
+      <li><img src="src/img/oledb32r.dll_14_202-0.png" alt="converterprogram" onclick="converterprogram()" id="converterprogram"></li> <span>Temperature Conversor</span>
+      <li><img src="src/img/baixados.png" alt="note" onclick="notepad()" id="note"></li> <span>NotePad</span>
+    </ul>
+    <ul class="programs-2">
+      <li><img src="src/img/582.ico" alt="tetris" id="tetris"></li> <span>Tetris</span>
+    </ul>
+    <div class="window" style="width: 300px" id="converter">
+      <div class="title-bar">
+        <img src="src/img/15.ico" alt="program-icon" id="program-icon">
+        <div class="title-bar-text" style="text-indent: -3em;">Temperature Converter</div>
+        <div class="title-bar-controls">
+          <button aria-label="Minimize" onclick="minimizeprogram()"></button>
+          <button aria-label="Close" onclick="closeprogram()" id="closeprogram"></button>
+        </div>
+      </div> 
+      <div class="window-body">
+        <menu role="tablist">
+          <button aria-selected="true" aria-controls="celsius">Celsius</button>
+          <button aria-controls="kelvin">Kelvin</button>
+          <button aria-controls="Fahrenheit">Fahrenheit</button>
+        </menu>
+        <article role="tabpanel" id="celsius">
+          <p>Choose the temperature to converter</p>
+          <fieldset>
+            <legend>The options</legend>
+            <div class="field-row">
+              <input id="radio29" type="radio" name="fieldset-example2">
+              <label for="radio29">Kelvin</label>
+            </div>
+            <div class="field-row">
+              <input id="radio30" type="radio" name="fieldset-example2">
+              <label for="radio30">Fahrenheit</label>
+            </div>
+          </fieldset>
+          <section class="field-row">
+            <input type="text" id="text" pattern="[0-9]+" required>
+            <button type="button" onclick="btn()">Click Me!</button>
+            <p id="result"></p>
+          </section>
+        </article>
+        <article role="tabpanel" hidden id="kelvin">
+          <p>Choose the temperature to converter</p>
+          <fieldset>
+            <legend>The options</legend>
+            <div class="field-row">
+              <input id="radio20" type="radio" name="fieldset-example2">
+              <label for="radio20">Celsius</label>
+            </div>
+            <div class="field-row">
+              <input id="radio21" type="radio" name="fieldset-example2">
+              <label for="radio21">Fahrenheit</label>
+            </div>
+          </fieldset>
+          <section class="field-row">
+            <input type="text" id="text2" pattern="[0-9]+" required>
+            <button type="button" onclick="btn2()">Click Me!</button>
+            <p id="result2"></p>
+          </section>
+        </article>
+        <article role="tabpanel" hidden id="Fahrenheit">
+          <p>Choose the temperature to converter</p>
+          <fieldset>
+            <legend>The options</legend>
+            <div class="field-row">
+              <input id="radio10" type="radio" name="fieldset-example2">
+              <label for="radio10">Celsius</label>
+            </div>
+            <div class="field-row">
+              <input id="radio09" type="radio" name="fieldset-example2">
+              <label for="radio09">Kelvin</label>
+            </div>
+          </fieldset>
+          <section class="field-row">
+            <input type="text" id="text3">
+            <button type="button" onclick="btn3()">Click Me!</button>
+            <p id="result3"></p>
+          </section>
+        </article>
+      </div>
+    </div>
+    <div class="window" style="width: 200px" id="error">
+      <div class="title-bar">
+          <div class="title-bar-text">Success!</div>
+        </div>
+        <div class="window-body">
+          <img src="src/img/error.png">
+          <p>Task failed successfully!</p>
+          <button onclick="btnerro()">Ok</button>
+        </div>
+      </div>
+      <div class="window" style="width: 300px" id="notepad">
+        <div class="title-bar">
+          <img src="src/img/wordpad.exe_14_154-1.png" alt="notepad-icon" id="notepad-icon">
+          <div class="title-bar-text" style="text-indent: -7em;">empty - NotePad</div>
+          <div class="title-bar-controls">
+            <button aria-label="Minimize" onclick="minimizenote()"></button>
+            <button aria-label="Close" onclick="closenotepad()"></button>
+          </div>
+        </div>
+        <div class="window-body">
+          <p id="notepad-options">File Edit Format View Help</p>
+          <div class="blue-line"></div>
+          <div class="field-row-stacked" style="width: 285px">
+            <textarea id="text24" rows="20" cols="50"></textarea>
+          </div>
+        </div>
+      </div>
+      <div class="window" style="width: 350px" id="documents">
+        <div class="title-bar">
+          <img src="src/img/26.ico" alt="documents-icon" id="documents-icon">
+          <div class="title-bar-text" style="text-indent: -9em;">My Documents</div>
+          <div class="title-bar-controls">
+            <button aria-label="Minimize" onclick="minimizedocu()"></button>
+            <button aria-label="Close" onclick="closedocuments()"></button>
+          </div>
+        </div>
+        <div class="window-body">
+          <p id="documents-options">File Edit Views Help</p><span><img style="width: 25px;" src="C:\Users\William\Downloads\Windows-XP-master\Windows-XP-master\128x128\apps\start-here.png"></span>
+          <div class="line-gray"></div>
+          <div class="square-white"></div>
+          <div class="line-white"></div>
+          <div class="first-img">
+            <img style="width: 24px;" src="src/img/Back2.png" alt="back" id="back">
+            <p id="back-text">Back &#9662</p>
+            <img style="width: 24px;" src="src/img/Forward.png" alt="forward" id="forward">
+            <p id="arrow">&#9662</p>
+            <img style="width: 24px;" src="src/img/Up.png" alt="up" id="up-folder">
+            <div class="collum-gray"></div>
+          </div>
+          <div class="second-img">
+            <img style="width: 24px;" src="src/img/Search.png" alt="search">
+            <p id="search-text">Search</p>
+            <div class="collum-gray2"></div>
+            <div class="collum-white"></div>
+            <img style="width: 24px;" src=src/img/Delete.png alt="delete" id="delete">
+            <img style="width: 24px;" src=src/img/Undo.png alt="undo" id="undo">
+            <div class="collum-gray3"></div>
+          </div>
+          <img style="width: 24px;" src="src/img/IconView.png" alt="IconView" id="Icon-View"> 
+        </div>
+        <div class="blue-line2"></div>
+        <p id="text-folder">Name &#9662</p>
+        <p id="size-name">Size</p>
+        <div class="collum-gray4"></div>
+        <div class="collum-gray5"></div>
+        <div class="collum-white2"></div>
+        <div class="line-gray2"></div>
+        <div class="background-gray"></div>
+        <div class="background-white"></div>
+        <img src="src/img/522.ico" alt="photo" id="photo-1">
+        <p id="photo-description" onclick="wallpaper1()">eva_wallpaper 1.1mb</p>
+        <img src="src/img/522.ico" alt="photo" id="photo-2">
+        <p id="photo-description2" onclick="wallpaper2()">wallpaper_subarury 989kb</p>
+      </div>
+    <footer class="footer">
+      <ul>
+        <li class="blue-program" onclick="blue()" id="blue-program">Converter<span><img src="src/img/oledb32r.dll_14_202-1.png" alt="program-mini" id="program-mini"></span></li>
+        <li class="note-program" onclick="note()" id="note-program">NotePad<span><img src="src/img/wordpad.exe_14_165-1.png" alt="note-mini" id="note-mini"></span></li>
+        <li class="docu-program" onclick="docu()" id="docu-program">My Documents<span><img src="src/img/MSONSEXT.DLL_14_2-1.png" alt="docu-mini" id="docu-mini"></span></li>
+      </ul>
+      <img src="src/img/m00hplxg.png" alt="logo" id="logo">
+      <img src="src/img/XP Blue 29.png" alt="blue-footer" id="blue-footer">
+      <p id="time" style="color: #fff;"></p>
+    </footer>
+</body>
+<script src="script.js" type="text/javascript"></script>
+</html>
