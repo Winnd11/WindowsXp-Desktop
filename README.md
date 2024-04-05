@@ -1,5 +1,5 @@
 <h1 align="center">Windows Xp Desktop</h1>
-<p>Its project i made using the XP.css libray</p>
+<p>I made this project using the XP.css libray</p>
 <a href="https://github.com/botoxparty/XP.css">Github XP.css
 
 ## Features
