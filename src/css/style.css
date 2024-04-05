@@ -1,0 +1,452 @@
+@import "xp.css/dist/XP.css";
+
+
+body {
+    overflow: hidden;
+    cursor: url(https://ia804600.us.archive.org/view_archive.php?archive=/13/items/WindowsXPExtractedIcons/Program%20Files%20Icons%20-%20PNG.zip&file=Program%20Files%20Icons%20-%20PNG%2FWMM2FILT.dll_14_117.png), default;
+}
+
+input {
+    width: 50px;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+span {
+    font-family: "Pixelated MS Sans Serif",Arial;
+    font-size: 11px;
+    color: #fff;
+    margin-left: -16px;
+}
+
+textarea {
+    resize: none;
+    right: 0;
+    bottom: 0;
+}
+
+span:nth-child(2) {
+    margin-left: -11px;
+}
+
+span:nth-child(8) {
+    margin-left: -35px;
+}
+
+span:nth-child(10) {
+    margin-left: -5px;
+}
+
+
+#converterprogram {
+    cursor: pointer;
+}
+
+.programs {
+    list-style: none;
+    position: absolute;
+}   
+
+.programs li{
+    padding-top: 4em;
+}
+
+.programs-2 {
+    list-style: none;
+    position: absolute;
+}
+
+.programs-2 li {
+    padding-top: 4em;
+    margin-left: 10em;
+}
+
+.programs-2 span {
+    margin-left: 11em;
+}
+
+#converter {
+    position: absolute;
+    left: 50%;
+    margin-left: -150px;
+    top: 50%;
+    margin-top: -150px;
+}
+
+#background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#result {
+    font-family: "Pixelated MS Sans Serif",Arial;
+    font-size: 11px;
+}
+
+#blue-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+}
+
+#note {
+    width: 34px;
+    height: 34px;
+    cursor: pointer;
+}
+
+#notepad {
+    position: absolute;
+    z-index: 5;
+    right: 0;
+    margin-right: 10em;
+}
+
+#notepad-options {
+    font-family: "Pixelated MS Sans Serif",Arial;
+    word-spacing: 1em;
+}
+
+#documents {
+    position: absolute;
+    margin-left: 12em;
+    z-index: 12;
+    height: 175px;
+    display: none;
+}
+
+#documents span {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #fff;
+    width: 30px;
+    padding-left: 5px;
+    padding-bottom: 2px;
+    margin-top: 2.5em;
+    margin-right: 0.3em;
+    border-bottom: 3px rgba(91, 91, 91, 0.257);
+    border-left: 1px solid rgba(91, 91, 91, 0.257);
+}
+
+
+#documents-options {
+    font-family: "Pixelated MS Sans Serif",Arial;
+    word-spacing: 1em;
+}
+
+.line-gray {
+    background-color: rgba(91, 91, 91, 0.257);
+    width: 343px;
+    height: 1px;
+    margin-left: -0.5em;
+    margin-top: -0.5em;
+}
+
+.line-white {
+    background-color: rgb(255, 255, 255);
+    width: 343px;
+    height: 1.5px;
+    margin-left: -0.5em;
+}
+
+.square-white {
+    width: 2px;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 5.1em;
+    margin-right: 3.3em;
+}
+
+#back-text {
+    position: absolute;
+    margin-left: 3em;
+    margin-top: -1.6em;
+}
+
+.first-img img {
+    margin-top: 0.5em;
+}
+
+#forward {
+    margin-left: 5em;
+    filter: grayscale(100%);
+}
+
+#arrow {
+    position: absolute;
+    color: rgb(130, 130, 130);
+    margin-left: 10.3em;
+    margin-top: -1.6em;
+}
+
+#up-folder {
+    margin-left: 2em;
+}
+
+.collum-gray {
+    position: absolute;
+    width: 1px;
+    height: 30px;
+    background-color: rgba(91, 91, 91, 0.257);
+    margin-left: 14.5em;
+    margin-top: -2.5em;
+}
+
+.second-img img {
+    position: absolute;
+    margin-left: 15em;
+    margin-top: -2.4em;
+}
+
+#search-text {
+    position: absolute;
+    margin-left: 17.5em;
+    margin-top: -1.8em;
+}
+
+.collum-gray2 {
+    width: 1px;
+    height: 30px;
+    background-color: rgba(91, 91, 91, 0.257);
+    margin-left: 21.3em;
+    margin-top: -2.5em;
+    position: absolute;
+}
+
+#delete {
+    margin-left: 22em;
+}
+
+#undo {
+    margin-left: 25em;
+}
+
+.collum-gray3 {
+    width: 1px;
+    height: 30px;
+    background-color: rgba(91, 91, 91, 0.257);
+    margin-left: 27.5em;
+    margin-top: -2.5em;
+    position: absolute;
+}
+
+#Icon-View {
+    position: absolute;
+    right: 0;
+    margin-top: -2.4em;
+    margin-right: 0.6em;
+}
+
+#folder {
+    cursor: pointer;
+}
+
+#text-folder {
+    font-family: "Pixelated MS Sans Serif",Arial;
+    font-size: 11px;
+    margin-left: 0.5em;
+    text-indent: 0.5em;
+}
+
+#size-name {
+    font-family: "Pixelated MS Sans Serif",Arial;
+    font-size: 11px;
+    margin-left: 19em;
+    margin-top: -2.1em;
+    position: absolute;
+}
+
+.collum-gray4 {
+    background-color: rgba(91, 91, 91, 0.257);
+    width: 1px;
+    height: 20px;
+    position: absolute;
+    margin-left: 11em;
+    margin-top: -2.6em;
+}
+
+.collum-gray5 {
+    background-color: rgba(91, 91, 91, 0.257);
+    width: 1px;
+    height: 20px;
+    position: absolute;
+    margin-left: 21.5em;
+    margin-top: -2.6em;
+}
+
+.collum-white {
+    background-color: rgb(255, 255, 255);
+    width: 1px;
+    height: 20px;
+    position: absolute;
+    margin-left: 10.4em;
+    margin-top: 0.9em;
+}
+
+.collum-white2 {
+    background-color: rgb(255, 255, 255);
+    width: 1px;
+    height: 20px;
+    position: absolute;
+    margin-left: 21.6em;
+    margin-top: -2.6em;
+} 
+
+.blue-line2 {
+    background-color: rgba(91, 91, 91, 0.257);
+    width: 347px;
+    height: 1px;
+    margin-top: -0.5em;
+    box-shadow: rgba(0, 0, 0, 0.097) 0px -1px 6px, rgba(0, 0, 0, 0.146) 0px -1px 6px;
+}
+
+.line-gray2 {
+    width: 347px;
+    height: 1px;
+    margin-top: -0.5em;
+    background-color: rgba(91, 91, 91, 0.257);
+    box-shadow: rgba(0, 0, 0, 0.124) 2px -1px 2px, rgba(0, 0, 0, 0.198) 2px -1px 2px;
+}
+
+.background-gray {
+    width: 120px;
+    height: 50px;
+    background-color: #f7f7f7;
+    position: absolute;
+    z-index: -1;
+    margin-left: 0.3em;
+}
+
+.background-white {
+    background-color: #fff;
+    width: 225px;
+    height: 50px;
+    position: absolute;
+    z-index: -1;
+    margin-left: 11em;
+}
+
+#photo-1 {
+    margin-left: 0.5em;
+    margin-top: 0.3em;
+    width: 14px;
+}
+
+#photo-2 {
+    margin-left: 0.5em;
+    margin-top: -0.2em;
+    width: 14px;
+}
+
+#photo-description {
+    font-family: "Pixelated MS Sans Serif",Arial;
+    font-size: 11px;
+    margin-left: 2.1em;
+    margin-top: -1.4em;
+    word-spacing: 10em;
+    cursor: pointer;
+}
+
+#photo-description2 {
+    font-family: "Pixelated MS Sans Serif",Arial;
+    font-size: 11px;
+    margin-left: 2.1em;
+    margin-top: -1.5em;
+    word-spacing: 8em;
+    cursor: pointer;
+}
+
+.blue-line {
+    background-color: #166AEE;
+    width: 295px;
+    height: 2px;
+    margin-top: -0.5em;
+    margin-left: -0.5em;
+}
+
+#logo {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+}
+
+#time {
+    position: absolute;
+    font-family: "Pixelated MS Sans Serif",Arial;
+    font-size: 11px;
+    right: 0;
+    bottom: 0;
+    margin-right: 4em;
+}
+
+.footer ul {
+    position: absolute;
+    bottom: 0;
+    z-index: 4;
+    left: 6em;
+    transform: translateY(0.6em);
+}
+
+.footer ul li {
+    display: inline-block;
+    color: #fff;
+    font-family: "Pixelated MS Sans Serif",Arial;
+    background-color: rgb(76, 135, 233);
+    width: 100px;
+    height: 20px;
+    border-radius: 2px;
+    text-indent: 2em;
+    cursor: pointer;
+}
+
+#program-mini {
+    transform: translateX(-5em);
+}
+
+#note-mini {
+    transform: translateX(-4.5em);
+}
+
+#docu-mini {
+    transform: translateX(-7em);
+    display: none;
+}
+
+#docu-program {
+    display: none;
+}
+
+#error {
+    position: absolute;
+    left: 19em;
+    top: 14em;
+    z-index: 10;
+    display: none;
+}
+
+#error img {
+   position: absolute;
+   margin-top: -1em;
+}
+
+#error p {
+    margin-left: 5em;
+}
+
+#error button {
+    margin-top: 2em;
+    margin-left: 5em;
+}
