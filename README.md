@@ -2,7 +2,7 @@
 <p>I made this project using the XP.css libray</p>
 <a href="https://github.com/botoxparty/XP.css">Github XP.css>
 <br></br>
-<img src="src/img/Captura de tela_31-3-2024_95540_.jpeg">
+<img src="src/img/Captura de tela 2024-06-01 102808.png">
 
 ## Features
 
